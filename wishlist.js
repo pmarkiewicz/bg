@@ -68,8 +68,8 @@ const checkWishlist = async () => {
     observer.disconnect();
 
     console.log('wish');
-    displayHistory(curr);
     updateHistory(curr);
+    displayHistory(curr);
 
     observer.observe(targetNode, config);
   });
@@ -77,8 +77,8 @@ const checkWishlist = async () => {
 
   priceHistory = await loadHistory();
   
-  displayHistory(curr);
   updateHistory(curr);
+  displayHistory(curr);
 
   observer.observe(targetNode, config);
 };
