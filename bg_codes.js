@@ -45,6 +45,7 @@ const CODES = [
 "467535",
 "Car007",
 "TP15",
+"8a68ae",
 
 // individual
 "#47f203",
@@ -71,4 +72,6 @@ const CODES = [
 "tps6786",
 "wsp20",
 "99a5c1",
+
+"HAKRC35A",
 ];
