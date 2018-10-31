@@ -74,4 +74,7 @@ const CODES = [
 "99a5c1",
 
 "HAKRC35A",
+"BCNLXK",
+"EA09",
+"DG11110",
 ];
