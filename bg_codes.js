@@ -77,4 +77,11 @@ const CODES = [
 "BCNLXK",
 "EA09",
 "DG11110",
+"RCHobbies8",
+"28rc",
+
+"Christmas10",
+"MODULE",
+"d67c25",
+"MC12",
 ];

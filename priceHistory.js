@@ -1,13 +1,13 @@
 
 const extractPrice = (item) => {
-  const re = /\d+\.\d+/;
+  const re = /\d+[\.,]\d+/;
 
   const label = item.querySelector('.newcart_options > span.addwish');
   const pid = label.getAttribute('products_id');
 
   const priceTag = item.querySelector('.newcart_price');
   const priceText = priceTag.getAttribute('data-price');
-  const priceNum = re.exec(priceText)[0];
+  const priceNum = re.exec(priceText)[0].replace(',', '.');
   const price = parseFloat(priceNum);
 
   return {pid, price};
