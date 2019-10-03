@@ -5,7 +5,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     const r = chrome.tabs.query({active:true,windowType:"normal", currentWindow: true},
         function(d){
             console.log("TAB: " + d[0].id);
-            chrome.tabs.sendMessage(d[0].id, 'checkPrices');
+            chrome.tabs.sendMessage(d[0].id, 'checkPricesParallel');
         });
 });
 
